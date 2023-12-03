@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "data",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/kethua.sol": "Hi"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/hello.sol": {
+			"keccak256": "0x22bbdda785719b78c98e5e46a46c0d57c3102a520c02322dac72cad1d8bb2789",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d7634451f82b9346dab860a4ae956b789572d3bdb0fc2d72298c71d11daccbf",
+				"dweb:/ipfs/QmP4hBVCyb7D9q1TZaXpLAiSGuoz419iDDByuNXysNz4C3"
+			]
+		},
+		"contract/hello_world.sol": {
+			"keccak256": "0x6ad199c228da11370545b2948101fd3f224f6313e7ed7986c342cb7cc02634e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://397917455bd71e3bdb680386d4fa1d679a18b00a93b70aa713656e39a5507407",
+				"dweb:/ipfs/QmRci23PCJ8xcEUh2d1UXMU7396zEYetcUXhMvKbD7hevU"
+			]
+		},
+		"contract/kethua.sol": {
+			"keccak256": "0x4b24ae49d223382010faf9c391c4989ad16b56a6445e5492eea5c1a1a76faac9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6769980f420e96bee0828f03bcf5168780c93f8993a3a428304bbca7305a659c",
+				"dweb:/ipfs/QmZhtaMkStRpywZkeiygb5eiw2br7a5K8K5b8KqzZihwzW"
+			]
+		}
+	},
+	"version": 1
+}

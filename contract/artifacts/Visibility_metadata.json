@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/visibility.sol": "Visibility"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/visibility.sol": {
+			"keccak256": "0x0a6dcb8bedb0c0942f41c6180c0b15f5df09c4c7b85e4d98f314d493c94e0a1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://870643e6038990c7e177cb28b738011ce2f53e4101d066924c022cdc36150e7c",
+				"dweb:/ipfs/QmVaxV5dUji3FPeuwvgLDK62J5FF8VLs9wn5uEkCwCFyEW"
+			]
+		}
+	},
+	"version": 1
+}
